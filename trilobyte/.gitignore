@@ -1,0 +1,6 @@
+wandb
+t5_lnac
+*.wav
+lnac_redux
+__pycache__/
+.pytest_cache/
