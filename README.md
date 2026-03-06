@@ -1,12 +1,11 @@
 # Trilobyte
 
-This repository contains the research experiments for **Trilobyte** — a language-model-based lossless audio codec. It includes the codec itself, baseline comparisons, training experiments, and paper figures.
+This repository contains the research experiments for **Trilobyte** — a language-model-based lossless audio codec. It includes baseline comparisons, training experiments, and paper figures.
 
 ---
 
 ## Repository layout
 
-- `trilobyte_lossless_codec/` — Official Trilobyte codec (encode/decode CLI); see [https://github.com/pnlong/trilobyte-lossless-codec](https://github.com/pnlong/trilobyte-lossless-codec)
 - `baselines/` — Baseline experiments, eval pipelines, NAC codecs
 - `trilobyte/` — Training code, configs, model experiments
 - `paper_figures/` — Scripts to reproduce paper tables and figures
@@ -25,7 +24,7 @@ If you just want to compress or decompress audio with Trilobyte, go there. This 
 
 ## Quick start
 
-- **Encode/decode audio:** See `trilobyte_lossless_codec/` for the CLI.
+- **Encode/decode audio:** See [trilobyte-lossless-codec](https://github.com/pnlong/trilobyte-lossless-codec).
 - **Run FLAC baseline:** See `baselines/flac_eval/`.
 - **Run LMIC (in-context) eval:** See `baselines/in_context_eval/`.
 - **NAC codec experiments:** See `baselines/nac/`.
